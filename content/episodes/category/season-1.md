@@ -1,9 +1,9 @@
 ---
-title: Episodes
+title: Episodes, Season 1
 sections:
   - type: hero_section
     title: Episodes
-    subtitle: List of episodes in order
+    subtitle: Season 1
     align: center
     padding_top: medium
     padding_bottom: small
@@ -13,6 +13,7 @@ sections:
     blog_feed_cols: three
     enable_cards: true
     show_recent: false
+    category: data/categories/season-1.yaml
     show_date: true
     show_categories: false
     show_author: false
@@ -46,17 +47,17 @@ sections:
     has_border: true
     background_color: secondary
 seo:
-  title: Episodes
-  description: This is the episodes page
+  title: Posts in General
+  description: This is the author archive page
   extra:
     - name: og:type
       value: website
       keyName: property
     - name: og:title
-      value: Episodes
+      value: Posts in General
       keyName: property
     - name: og:description
-      value: This is the episodes page
+      value: This is the author archive page
       keyName: property
     - name: og:image
       value: images/post-9.jpg
@@ -65,9 +66,9 @@ seo:
     - name: twitter:card
       value: summary_large_image
     - name: twitter:title
-      value: Episodes
+      value: Posts in General
     - name: twitter:description
-      value: This is the episodes page
+      value: This is the author archive page
     - name: twitter:image
       value: images/post-9.jpg
       relativeUrl: true

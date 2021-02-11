@@ -3,8 +3,10 @@ title: Home
 sections:
   - type: hero_section
     title: Welcome to DIYJam Podcast
+    subtitle: >-
+      Optional hero section subtitle
     content: >-
-      A podcast for Web developers interested in building Jamstack websites. Hosted by Jhon Doe
+      A podcast for Web developers interested in building Jamstack websites. Hosted by Miles Tone.
     actions:
       - label: Subscribe to Podcast
         url: /thank-you
@@ -17,7 +19,7 @@ sections:
     padding_top: large
     padding_bottom: large
     background_color: primary
-    background_image: images/bc-2.jpg
+    background_image: images/hero-background.jpg
     background_image_repeat: no-repeat
     background_image_size: cover
     background_image_opacity: 20
@@ -27,7 +29,7 @@ sections:
     blog_feed_cols: three
     enable_cards: true
     show_recent: true
-    recent_count: 10
+    recent_count: 6
     show_image: true
     show_date: true
     show_categories: false
@@ -38,10 +40,10 @@ sections:
     padding_bottom: medium
     has_border: true
     background_color: none
-    background_image: images/webb.svg
+    background_image: images/pattern.svg
     background_image_repeat: repeat
     background_image_size: auto
-    background_image_opacity: 100
+    background_image_opacity: 98
   - type: grid_section
     title: Subscribe
     grid_items:
@@ -57,7 +59,7 @@ sections:
             icon_position: right
         actions_align: center
         image: images/icon-1.svg
-        image_alt: Partnering and sponsorships icon
+        image_alt: Apple Podcasts icon
         image_position: top
         image_align: center
         image_has_padding: true
@@ -73,7 +75,7 @@ sections:
             icon_position: right
         actions_align: center
         image: images/icon-2.svg
-        image_alt: Help and support icon
+        image_alt: Spotify icon
         image_position: top
         image_align: center
         image_has_padding: true
@@ -89,7 +91,7 @@ sections:
             icon_position: right
         actions_align: center
         image: images/icon-3.svg
-        image_alt: Other queries icon
+        image_alt: Overcast icon
         image_position: top
         image_align: center
         image_has_padding: true
@@ -100,8 +102,9 @@ sections:
     align: center
     padding_top: large
     padding_bottom: large
+    has_border: true
     background_color: secondary
-    background_image: images/bc.jpg
+    background_image: images/subscribe-background.jpg
     background_image_repeat: no-repeat
     background_image_size: cover
     background_image_opacity: 10
@@ -111,33 +114,34 @@ sections:
     align: center
     grid_items:
       - image: images/logo-1.svg
-        image_alt: Contentful logo
+        image_alt: Stackbit logo
         image_align: center
       - image: images/logo-2.svg
         image_alt: Netlify logo
         image_align: center
       - image: images/logo-3.svg
-        image_alt: Gatsby logo
+        image_alt: Sticker Mule logo
         image_align: center
       - image: images/logo-4.svg
-        image_alt: Sanity logo
+        image_alt: GitHub logo
         image_align: center
       - image: images/logo-5.svg
-        image_alt: Contentful logo
-        image_align: center
-      - image: images/logo-6.svg
-        image_alt: Netlify logo
-        image_align: center
-      - image: images/logo-7.svg
         image_alt: Gatsby logo
         image_align: center
+      - image: images/logo-6.svg
+        image_alt: Twilio logo
+        image_align: center
+      - image: images/logo-7.svg
+        image_alt: Contentful logo
+        image_align: center
       - image: images/logo-8.svg
-        image_alt: Sanity logo
+        image_alt: Forestry logo
         image_align: center
     grid_cols: four
     grid_gap_horiz: medium
     grid_gap_vert: medium
     has_border: true
+    background_color: none
   - type: form_section
     content: |-
       ## Ask A Question
@@ -175,9 +179,35 @@ sections:
     padding_top: medium
     padding_bottom: medium
     background_color: none
-    background_image: images/webb.svg
+    background_image: images/pattern.svg
     background_image_repeat: repeat
     background_image_size: auto
-    background_image_opacity: 100
+    background_image_opacity: 98
+seo:
+  title: Stackbit Podcaster Theme
+  description: The preview of the Podcaster theme
+  extra:
+    - name: og:type
+      value: website
+      keyName: property
+    - name: og:title
+      value: Stackbit Podcaster Theme
+      keyName: property
+    - name: og:description
+      value: The preview of the Podcaster theme
+      keyName: property
+    - name: og:image
+      value: images/hero.png
+      keyName: property
+      relativeUrl: true
+    - name: twitter:card
+      value: summary_large_image
+    - name: twitter:title
+      value: Stackbit Podcaster Theme
+    - name: twitter:description
+      value: The preview of the Podcaster theme
+    - name: twitter:image
+      value: images/hero.png
+      relativeUrl: true
 layout: advanced
 ---

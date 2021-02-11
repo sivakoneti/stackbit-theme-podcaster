@@ -1,15 +1,43 @@
 ---
-title: Episode 3 - Cur Ipse Pythagoras Et Aegyptum Lustravit
+title: Episode 8 - Litteram Videor An Totas Paginas
 subtitle: >-
   Innumerabilia dici possunt in hanc sententiam, sed non necesse est. Putabam equidem satis, inquit, me dixisse.
-date: 2020-05-28
-thumb_image: images/post-3.jpg
-thumb_image_alt: Post 3 placeholder image
-image: images/post-3.jpg
-image_alt: Post 3 placeholder image
-image_position: left
+date: 2020-12-28
+categories:
+  - data/categories/season-1.yaml
+thumb_image: images/post-8.jpg
+thumb_image_alt: Episode 8 placeholder image
+image: images/post-8.jpg
+image_alt: Episode 8 placeholder image
+image_position: right
 episode_embed_html: >-
   <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/387283889&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+seo:
+  title: Episode 8 - Litteram Videor An Totas Paginas
+  description: Quis est, qui non oderit libidinosam, protervam adolescentiam
+  extra:
+    - name: og:type
+      value: website
+      keyName: property
+    - name: og:title
+      value: Episode 8 - Litteram Videor An Totas Paginas
+      keyName: property
+    - name: og:description
+      value: Quis est, qui non oderit libidinosam, protervam adolescentiam
+      keyName: property
+    - name: og:image
+      value: images/post-8.jpg
+      keyName: property
+      relativeUrl: true
+    - name: twitter:card
+      value: summary_large_image
+    - name: twitter:title
+      value: Episode 8 - Litteram Videor An Totas Paginas
+    - name: twitter:description
+      value: Quis est, qui non oderit libidinosam, protervam adolescentiam
+    - name: twitter:image
+      value: images/post-8.jpg
+      relativeUrl: true
 layout: post
 ---
 

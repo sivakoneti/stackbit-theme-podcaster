@@ -2,14 +2,42 @@
 title: Episode 2 - Non Minor, Inquit, Voluptas Percipitur Ex Vilissimis
 subtitle: >-
   Idemque diviserunt naturam hominis in animum et corpus. Si enim ad populum me vocas, eum.
-date: 2020-05-25
+date: 2020-08-14
+categories:
+  - data/categories/season-1.yaml
 thumb_image: images/post-2.jpg
-thumb_image_alt: Post 2 placeholder image
+thumb_image_alt: Podcast 2 placeholder image
 image: images/post-2.jpg
-image_alt: Post 2 placeholder image
-image_position: left
+image_alt: Podcast 2 placeholder image
+image_position: right
 episode_embed_html: >-
   <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/387283889&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+seo:
+  title: Episode 2 - Non Minor, Inquit, Voluptas Percipitur Ex Vilissimis
+  description: Quae diligentissime contra Aristonem dicuntur a Chryippo
+  extra:
+    - name: og:type
+      value: website
+      keyName: property
+    - name: og:title
+      value: Episode 2 - Non Minor, Inquit, Voluptas Percipitur Ex Vilissimis
+      keyName: property
+    - name: og:description
+      value: Quae diligentissime contra Aristonem dicuntur a Chryippo
+      keyName: property
+    - name: og:image
+      value: images/post-2.jpg
+      keyName: property
+      relativeUrl: true
+    - name: twitter:card
+      value: summary_large_image
+    - name: twitter:title
+      value: Episode 2 - Non Minor, Inquit, Voluptas Percipitur Ex Vilissimis
+    - name: twitter:description
+      value: Quae diligentissime contra Aristonem dicuntur a Chryippo
+    - name: twitter:image
+      value: images/post-2.jpg
+      relativeUrl: true
 layout: post
 ---
 
