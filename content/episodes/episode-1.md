@@ -17,7 +17,7 @@ seo:
   description: Atqui pugnantibus et contrariis studiis consiliisque semper utens nihil
   extra:
     - name: og:type
-      value: website
+      value: article
       keyName: property
     - name: og:title
       value: Episode 1 - Utrum Igitur Tibi Litteram Videor An Totas Paginas

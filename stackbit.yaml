@@ -25,7 +25,7 @@ metadata:
     large: images/demo-1024x768.png
 stackbit_banner:
   show_banner: true
-  name: PoPodcaster
+  name: Podcaster
   create_url: 'https://app.stackbit.com/create?theme=podcaster'
   github_url: 'https://github.com/stackbit/stackbit-theme-podcaster'
 models:
@@ -33,6 +33,10 @@ models:
     type: config
     label: Site configuration
     fields:
+      - type: string
+        name: domain
+        label: Domain
+        description: The domain of your site, including the protocol, e.g. https://mysite.com/
       - type: image
         name: favicon
         label: Favicon

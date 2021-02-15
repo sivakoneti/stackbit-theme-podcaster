@@ -17,7 +17,7 @@ seo:
   description: Quis est, qui non oderit libidinosam, protervam adolescentiam
   extra:
     - name: og:type
-      value: website
+      value: article
       keyName: property
     - name: og:title
       value: Episode 7 - Vos Autem Cum Perspicuis Dubia Debeatis Illustrare
